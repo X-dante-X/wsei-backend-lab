@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\X-dante-X\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\X-dante-X\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\solom\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\user\\Приложения\\Visual Studio\\SDK\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\solom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "D:\\Users\\yevhenii.solomchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,25 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\X-dante-X\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\solom\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\user\\Приложения\\Visual Studio\\SDK\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\solom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "D:\\Users\\yevhenii.solomchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,15 +82,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\X-dante-X\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -103,6 +98,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
