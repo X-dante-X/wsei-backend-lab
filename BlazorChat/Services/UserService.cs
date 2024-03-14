@@ -16,11 +16,16 @@ public class UserService : IUserService
 
     public string GetConnectioIdByName(string username)
     {
-        return Data.FirstOrDefault;
+        var pair = Data.FirstOrDefault(x => x.Value == username);
+        return pair.Key;
     }
 
     public void RemoveByName(string username)
     {
-        Data.Remove(username);
+        var pairsToRemove = Data.Where(pair => pair.Value == username).ToList();
+        foreach (var pair in pairsToRemove)
+        {
+            Data.Remove(pair.Key);
+        }
     }
 }

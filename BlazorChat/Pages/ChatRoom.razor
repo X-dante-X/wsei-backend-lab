@@ -55,7 +55,7 @@ else
             <option value="All">All</option>
             @foreach (var user in _userervice.GetAll())
             {
-                @if (_hubConnection.ConnectionId != user.ConnectionId && _username != user.Username)
+                @if (@* _hubConnection.ConnectionId != user.ConnectionId && *@ _username != user.Username)
                 {
                     <option value="@user.Username">@user.Username</option>
                 }
