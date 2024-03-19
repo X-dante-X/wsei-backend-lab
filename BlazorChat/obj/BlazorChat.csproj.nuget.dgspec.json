@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj": {}
+    "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj": {
+    "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj",
+        "projectUniqueName": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj",
         "projectName": "BlazorChat",
-        "projectPath": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj",
-        "packagesPath": "C:\\Users\\solom\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\obj\\",
+        "projectPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj",
+        "packagesPath": "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\user\\Приложения\\Visual Studio\\SDK\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\solom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "D:\\Users\\yevhenii.solomchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

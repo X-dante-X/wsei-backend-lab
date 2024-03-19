@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "WebApi.Controllers.WebApiUserQuiz",
+    "Method": "GetOneQuiz",
+    "RelativePath": "api/v1/user/quizzes/{id}",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BackendLab01.Quiz",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

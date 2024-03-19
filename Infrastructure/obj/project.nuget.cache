@@ -1,20 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "XVGjRpnxd8hsavjF/E3kQ9NUAjYz3N2DS7zmhbSAQDLr+7oOTSUKt2DjocC0BIQFnnbneTVloMMPpoIRj0PIdg==",
+  "dgSpecHash": "zj9EM7/aVTn43f+JC490S0uPCnoUwHVYqfaTJrJ18sOjS6y5+D9IlupgbeBrsMa/BWPn/O6iV5uM1+ohGE3AYA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.3\\microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\solom\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.3\\microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "D:\\Users\\yevhenii.solomchenko\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -155,12 +155,11 @@ else
 
         private async Task SendAsync(string message)
         {
-            if (_to == "All" )
-            {
                 if (_isChatting && !string.IsNullOrWhiteSpace(message))
                 {
+            if (_to == "All" )
+            {
                     await _hubConnection.SendAsync("Broadcast", _username, message);
-                }
             }
             else
             {
@@ -168,6 +167,7 @@ else
                 _hubConnection.SendAsync("Private", _username, connectionId, message);
             }
             _newMessage = string.Empty;
+                }
         }
 
         private class Message

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DtT7+CZ14d6I8yJjAe741E89C5uTGv1IdVpoxc5lhns=",
+  "Hash": "qQK5I5m/jUKrX80exS4JYWAG5Jin5WIqTC03O+Rs4C8=",
   "Source": "BlazorChat",
   "BasePath": "_content/BlazorChat",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorChat\\wwwroot",
       "Source": "BlazorChat",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorChat.styles.css",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorChat.styles.css",
       "SourceId": "BlazorChat",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "BlazorChat.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorChat.styles.css"
+      "OriginalItemSpec": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorChat.styles.css"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorChat.bundle.scp.css",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorChat.bundle.scp.css",
       "SourceId": "BlazorChat",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "BlazorChat.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorChat.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorChat.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\css\\site.css",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\favicon.ico",
       "SourceId": "BlazorChat",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\X-dante-X\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\wwwroot\\",
       "BasePath": "_content/BlazorChat",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
