@@ -2,6 +2,7 @@ using ApplicationCore.Interfaces.Repository;
 using BackendLab01;
 using Infrastructure.Memory;
 using Infrastructure.Memory.Repository;
+using NPOI.SS.Formula.Functions;
 
 namespace UnitTest;
 

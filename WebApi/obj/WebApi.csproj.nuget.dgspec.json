@@ -158,6 +158,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              },
               "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
               },

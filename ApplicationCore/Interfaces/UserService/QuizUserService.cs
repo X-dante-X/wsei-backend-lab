@@ -28,8 +28,9 @@ public class QuizUserService: IQuizUserService
 
     public void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
     {
-        //TODO dopisac obsluge bledu
-        QuizItem? item = itemRepository.FindById(quizItemId);
+
+        QuizItem? item = itemRepository.FindById(quizItemId) ?? throw new ArgumentNullException("quizItemId unknown");
+        _ = quizRepository.FindById(quizId) ?? throw new ArgumentNullException("quizId unknown");
         var userAnswer = new QuizItemUserAnswer(quizItem: item, userId: userId, answer: answer, quizId: quizId);
         answerRepository.Add(userAnswer);
     }

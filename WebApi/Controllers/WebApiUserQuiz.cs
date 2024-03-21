@@ -33,8 +33,15 @@ public class WebApiUserQuiz :ControllerBase
     [Route("{quizId}/items/{itemId}/answers")]
     public ActionResult SaveUserAnswer(QuizItemUserAnswerDTO dto, int quizId, int itemId)
     {
-        _quizUserService.SaveUserAnswerForQuiz(quizId, dto.UserId, itemId, dto.Answer);
-        return Created("uri to answer",null);
+        try 
+        {
+            _quizUserService.SaveUserAnswerForQuiz(quizId, dto.UserId, itemId, dto.Answer);
+            return Created("uri to answer",null);
+        }
+        catch (Exception ex) 
+        {
+            return Problem(ex.Message);
+        }
     }
 
 }

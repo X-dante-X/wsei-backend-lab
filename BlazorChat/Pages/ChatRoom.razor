@@ -55,7 +55,7 @@ else
             <option value="All">All</option>
             @foreach (var user in _userervice.GetAll())
             {
-                @if (@* _hubConnection.ConnectionId != user.ConnectionId && *@ _username != user.Username)
+                @if (_username != user.Username)
                 {
                     <option value="@user.Username">@user.Username</option>
                 }
@@ -66,109 +66,110 @@ else
 }
 
 @code {
-    @code {
-        // flag to indicate chat status
-        private bool _isChatting = false;
+    // flag to indicate chat status
+    private bool _isChatting = false;
 
-        // name of the user who will be chatting
-        private string _username;
+    // name of the user who will be chatting
+    private string _username;
 
-        private string _to;
+    private string? _to;
 
-        // on-screen message
-        private string _message;
+    // on-screen message
+    private string _message;
 
-        // new message input
-        private string _newMessage;
+    // new message input
+    private string _newMessage;
 
-        // list of messages in chat
-        private List<Message> _messages = new List<Message>();
+    // list of messages in chat
+    private List<Message> _messages = new List<Message>();
 
-        private string _hubUrl;
-        private HubConnection _hubConnection;
+    private string _hubUrl;
+    private HubConnection _hubConnection;
 
-        public async Task Chat()
+    public async Task Chat()
+    {
+        // check username is valid
+        if (string.IsNullOrWhiteSpace(_username))
         {
-            // check username is valid
-            if (string.IsNullOrWhiteSpace(_username))
-            {
-                _message = "Please enter a name";
-                return;
-            };
+            _message = "Please enter a name";
+            return;
+        };
 
-            try
-            {
-                // Start chatting and force refresh UI.
-                _isChatting = true;
-                await Task.Delay(1);
+        try
+        {
+            // Start chatting and force refresh UI.
+            _isChatting = true;
+            await Task.Delay(1);
 
-                // remove old messages if any
-                _messages.Clear();
+            // remove old messages if any
+            _messages.Clear();
 
-                // Create the chat client
-                string baseUrl = navigationManager.BaseUri;
+            // Create the chat client
+            string baseUrl = navigationManager.BaseUri;
 
-                _hubUrl = baseUrl.TrimEnd('/') + BlazorChatSampleHub.HubUrl;
+            _hubUrl = baseUrl.TrimEnd('/') + BlazorChatSampleHub.HubUrl;
 
-                _hubConnection = new HubConnectionBuilder()
-                    .WithUrl(_hubUrl)
-                    .Build();
+            _hubConnection = new HubConnectionBuilder()
+                .WithUrl(_hubUrl)
+                .Build();
 
-                _hubConnection.On<string, string>("Broadcast", BroadcastMessage);
-                _hubConnection.On<string, string>("Private", PrivateMessage);
-                await _hubConnection.StartAsync();
+            _hubConnection.On<string, string>("Broadcast", BroadcastMessage);
+            _hubConnection.On<string, string>("Private", PrivateMessage);
+            await _hubConnection.StartAsync();
 
-                await SendAsync($"[Notice] {_username} joined chat room.");
-                _userervice.Add(_hubConnection.ConnectionId, _username);
-            }
-            catch (Exception e)
-            {
-                _message = $"ERROR: Failed to start chat client: {e.Message}";
-                _isChatting = false;
-            }
+            await SendAsync($"[Notice] {_username} joined chat room.");
+            _userervice.Add(_hubConnection.ConnectionId, _username);
         }
-
-        private void BroadcastMessage(string name, string message)
+        catch (Exception e)
         {
-            bool isMine = name.Equals(_username, StringComparison.OrdinalIgnoreCase);
-
-            _messages.Add(new Message(name, message, isMine));
-
-            // Inform blazor the UI needs updating
-            InvokeAsync(StateHasChanged);
+            _message = $"ERROR: Failed to start chat client: {e.Message}";
+            _isChatting = false;
         }
+    }
 
-        private async Task DisconnectAsync()
+    private void BroadcastMessage(string name, string message)
+    {
+        bool isMine = name.Equals(_username, StringComparison.OrdinalIgnoreCase);
+
+        _messages.Add(new Message(name, message, isMine));
+
+        // Inform blazor the UI needs updating
+        InvokeAsync(StateHasChanged);
+    }
+
+    private async Task DisconnectAsync()
+    {
+        if (_isChatting)
         {
-            if (_isChatting)
-            {
-                await SendAsync($"[Notice] {_username} left chat room.");
+            await SendAsync($"[Notice] {_username} left chat room.");
 
-                await _hubConnection.StopAsync();
-                await _hubConnection.DisposeAsync();
+            await _hubConnection.StopAsync();
+            await _hubConnection.DisposeAsync();
 
-                _hubConnection = null;
-                _isChatting = false;
-                _userervice.RemoveByName(_username);
-            }
+            _hubConnection = null;
+            _isChatting = false;
+            _userervice.RemoveByName(_username);
         }
+    }
 
-        private async Task SendAsync(string message)
+    private async Task SendAsync(string message)
+    {
+        if (_isChatting && !string.IsNullOrWhiteSpace(message))
         {
-                if (_isChatting && !string.IsNullOrWhiteSpace(message))
-                {
-            if (_to == "All" )
+            var connectionId = _userervice.GetConnectioIdByName(_to);
+
+            if (connectionId == null)
             {
-                    await _hubConnection.SendAsync("Broadcast", _username, message);
+                await _hubConnection.SendAsync("Broadcast", _username, message);
             }
             else
             {
-                var connectionId = _userervice.GetConnectioIdByName(_to);
-                _hubConnection.SendAsync("Private", _username, connectionId, message);
+                await _hubConnection.SendAsync("Private", _username, connectionId, message);
             }
+
             _newMessage = string.Empty;
-                }
         }
+    }
 
         private class Message
         {
@@ -187,10 +188,11 @@ else
 
             public string CSS => Mine ? "sent" : "received";
         }
+
         private void PrivateMessage(string name, string message)
         {
             _messages.Add(new Message(name, $"[Private]: {message}", false));
             InvokeAsync(StateHasChanged);
         }
-    }
 }
+
