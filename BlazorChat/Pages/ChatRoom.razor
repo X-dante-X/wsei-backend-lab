@@ -1,6 +1,6 @@
 ﻿@page "/chatroom"
 @inject NavigationManager navigationManager
-@inject IUserService _userervice
+@inject IUserService _userservice
 @using BlazorChat.Services
 @using Microsoft.AspNetCore.SignalR.Client;
 
@@ -53,7 +53,7 @@ else
         <button class="btn btn-default" @onclick="@(() => SendAsync(_newMessage))">Send</button>
         <select class="form-select" @bind="@_to">
             <option value="All">All</option>
-            @foreach (var user in _userervice.GetAll())
+            @foreach (var user in _userservice.GetAll())
             {
                 @if (_username != user.Username)
                 {
@@ -118,7 +118,7 @@ else
             await _hubConnection.StartAsync();
 
             await SendAsync($"[Notice] {_username} joined chat room.");
-            _userervice.Add(_hubConnection.ConnectionId, _username);
+            _userservice.Add(_hubConnection.ConnectionId, _username);
         }
         catch (Exception e)
         {
@@ -148,7 +148,7 @@ else
 
             _hubConnection = null;
             _isChatting = false;
-            _userervice.RemoveByName(_username);
+            _userservice.RemoveByName(_username);
         }
     }
 
@@ -156,7 +156,7 @@ else
     {
         if (_isChatting && !string.IsNullOrWhiteSpace(message))
         {
-            var connectionId = _userervice.GetConnectioIdByName(_to);
+            var connectionId = _userservice.GetConnectioIdByName(_to);
 
             if (connectionId == null)
             {

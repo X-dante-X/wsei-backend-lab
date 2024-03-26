@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{385B732A-2E58-41A1-8A54-3273F7062768}|BlazorChat\\BlazorChat.csproj|d:\\users\\yevhenii.solomchenko\\documents\\github\\wsei-backend-lab\\blazorchat\\pages\\chatroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{385B732A-2E58-41A1-8A54-3273F7062768}|BlazorChat\\BlazorChat.csproj|solutionrelative:blazorchat\\pages\\chatroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3450EB9D-2114-41A1-93CD-4ADA5584CB30}|WebApi\\WebApi.csproj|d:\\users\\yevhenii.solomchenko\\documents\\github\\wsei-backend-lab\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3450EB9D-2114-41A1-93CD-4ADA5584CB30}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -48,10 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3450EB9D-2114-41A1-93CD-4ADA5584CB30}|WebApi\\WebApi.csproj|d:\\users\\yevhenii.solomchenko\\documents\\github\\wsei-backend-lab\\webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{3450EB9D-2114-41A1-93CD-4ADA5584CB30}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{385B732A-2E58-41A1-8A54-3273F7062768}|BlazorChat\\BlazorChat.csproj|d:\\users\\yevhenii.solomchenko\\documents\\github\\wsei-backend-lab\\blazorchat\\pages\\chatroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{385B732A-2E58-41A1-8A54-3273F7062768}|BlazorChat\\BlazorChat.csproj|solutionrelative:blazorchat\\pages\\chatroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{385B732A-2E58-41A1-8A54-3273F7062768}|BlazorChat\\BlazorChat.csproj|d:\\users\\yevhenii.solomchenko\\documents\\github\\wsei-backend-lab\\blazorchat\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -144,7 +144,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -164,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
@@ -172,12 +172,11 @@
               "RelativeToolTip": "WebApi\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T14:29:36.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T14:29:36.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WebApi.csproj",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\WebApi\\WebApi.csproj",
               "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
@@ -190,20 +189,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Web.csproj",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Web\\Web.csproj",
               "RelativeDocumentMoniker": "Web\\Web.csproj",
-              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Web\\Web.csproj*",
-              "RelativeToolTip": "Web\\Web.csproj*",
+              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Web\\Web.csproj",
+              "RelativeToolTip": "Web\\Web.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-12T14:21:32.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T14:21:32.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
@@ -215,46 +213,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj*",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj*",
+              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-12T14:21:32.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T14:21:32.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationCore.csproj",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
               "RelativeDocumentMoniker": "ApplicationCore\\ApplicationCore.csproj",
-              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj*",
-              "RelativeToolTip": "ApplicationCore\\ApplicationCore.csproj*",
+              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+              "RelativeToolTip": "ApplicationCore\\ApplicationCore.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-12T14:21:32.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T14:21:32.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UnitTest.csproj",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\UnitTest\\UnitTest.csproj",
               "RelativeDocumentMoniker": "UnitTest\\UnitTest.csproj",
-              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\UnitTest\\UnitTest.csproj*",
-              "RelativeToolTip": "UnitTest\\UnitTest.csproj*",
+              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\UnitTest\\UnitTest.csproj",
+              "RelativeToolTip": "UnitTest\\UnitTest.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-12T14:21:32.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T14:21:32.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SeedData.cs",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\Web\\SeedData.cs",
               "RelativeDocumentMoniker": "Web\\SeedData.cs",
@@ -262,12 +257,11 @@
               "RelativeToolTip": "Web\\SeedData.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAUwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T14:21:32.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T14:21:32.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BlazorChat.csproj",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj",
               "RelativeDocumentMoniker": "BlazorChat\\BlazorChat.csproj",
@@ -275,18 +269,29 @@
               "RelativeToolTip": "BlazorChat\\BlazorChat.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-12T14:41:43.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T14:41:43.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AQIAAPYAAAAAAAAAAAAcwAkBAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-03-19T14:27:38.928Z",
+              "WhenOpened": "2024-03-19T14:27:38.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatRoom.razor",
+              "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\Pages\\ChatRoom.razor",
+              "RelativeDocumentMoniker": "BlazorChat\\Pages\\ChatRoom.razor",
+              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\Pages\\ChatRoom.razor",
+              "RelativeToolTip": "BlazorChat\\Pages\\ChatRoom.razor",
+              "ViewState": "AQIAAJAAAAAAAAAAAADwv3kAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T15:03:27.447Z",
               "EditorCaption": ""
             },
             {
@@ -352,30 +357,17 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ChatRoom.razor",
-              "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\Pages\\ChatRoom.razor",
-              "RelativeDocumentMoniker": "BlazorChat\\Pages\\ChatRoom.razor",
-              "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\BlazorChat\\Pages\\ChatRoom.razor",
-              "RelativeToolTip": "BlazorChat\\Pages\\ChatRoom.razor",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-12T15:03:27.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "WebApi",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\WebApi\\WebApi.csproj",
               "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
               "ToolTip": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\WebApi\\WebApi.csproj",
               "RelativeToolTip": "WebApi\\WebApi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-19T14:27:49.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T14:27:49.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "WebApiUserQuiz.cs",
               "DocumentMoniker": "D:\\Users\\yevhenii.solomchenko\\Documents\\GitHub\\wsei-backend-lab\\WebApi\\Controllers\\WebApiUserQuiz.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\WebApiUserQuiz.cs",
